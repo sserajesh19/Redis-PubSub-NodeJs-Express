@@ -1,0 +1,31 @@
+{
+  "name": "rds-pub-sub-node-exprs",
+  "version": "1.0.0",
+  "description": "Redis PubSub NodeJs Express",
+  "main": "server.js",
+  "type":"module",
+  "scripts": {
+    "start":"node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sserajesh19/Redis-PubSub-NodeJs-Express.git"
+  },
+  "keywords": [
+    "#Redis",
+    "#PubSub",
+    "#NodeJs",
+    "#Express"
+  ],
+  "author": "Rajesh Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sserajesh19/Redis-PubSub-NodeJs-Express/issues"
+  },
+  "homepage": "https://github.com/sserajesh19/Redis-PubSub-NodeJs-Express#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "ioredis": "^5.4.1"
+  }
+}
